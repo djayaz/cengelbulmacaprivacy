@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Çengel Bulmaca Android uygulamasının gizlilik politikası.">
+<title>Çengel Bulmaca Gizlilik Politikası</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+html{-webkit-text-size-adjust:100%}
+body{margin:0}
+img{max-width:100%}
+:root{
+  --kagit:#FDFCF8; --yuzey:#FFFFFF; --kutu:#E7E0D0; --kutu-cizgi:#CDC4B0;
+  --mrk:#463F33; --mrk-solgun:#756C5C; --cizgi:#E2DCCC; --vurgu:#0E7C72;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --kagit:#161A20; --yuzey:#1E242C; --kutu:#242B34; --kutu-cizgi:#333C48;
+    --mrk:#EDF0F4; --mrk-solgun:#9AA4B2; --cizgi:#2B323C; --vurgu:#16A99B;
+  }
+}
+:root[data-theme="dark"]{
+  --kagit:#161A20; --yuzey:#1E242C; --kutu:#242B34; --kutu-cizgi:#333C48;
+  --mrk:#EDF0F4; --mrk-solgun:#9AA4B2; --cizgi:#2B323C; --vurgu:#16A99B;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--kagit); color:var(--mrk);
+  font:400 17px/1.65 "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding:40px 20px 72px;
+}
+.sayfa{max-width:66ch;margin:0 auto;display:flex;flex-direction:column;gap:30px}
+header{display:flex;flex-direction:column;gap:8px;
+  border-bottom:2px solid var(--vurgu);padding-bottom:20px}
+.etiket{font:600 12px/1 "Source Sans 3",sans-serif;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--vurgu)}
+h1{font:700 clamp(28px,4.5vw,38px)/1.15 "Bitter",Georgia,serif;margin:0;
+  text-wrap:balance;letter-spacing:-.01em}
+.tarih{margin:0;color:var(--mrk-solgun);font-size:15px}
+section{display:flex;flex-direction:column;gap:10px}
+h2{font:600 21px/1.25 "Bitter",Georgia,serif;margin:0}
+p{margin:0}
+ul{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+a{color:var(--vurgu)}
+.ozet{background:var(--kutu);border:1px solid var(--kutu-cizgi);
+  padding:18px 20px;display:flex;flex-direction:column;gap:8px}
+.ozet h2{font-size:18px}
+.ozet ul{gap:5px}
+.kutu{background:var(--yuzey);border:1px solid var(--cizgi);padding:16px 18px}
+.kutu p{font-size:15.5px}
+footer{border-top:1px solid var(--cizgi);padding-top:18px;
+  color:var(--mrk-solgun);font-size:15px}
+</style>
+</head>
+<body>
+<div class="sayfa">
+  <header>
+    <div class="etiket">Android uygulaması · com.vartix.cengelbulmaca</div>
+    <h1>Çengel Bulmaca Gizlilik Politikası</h1>
+    <p class="tarih">Son güncelleme: 11 Eylül 2026</p>
+  </header>
+
+  <div class="ozet">
+    <h2>Kısaca</h2>
+    <ul>
+      <li>Hesap açmanız istenmez; adınız, e-postanız, telefon numaranız sorulmaz.</li>
+      <li>Oyun ilerlemeniz yalnızca kendi cihazınızda saklanır, hiçbir yere gönderilmez.</li>
+      <li>Uygulama reklam gösterir. Reklamları Google AdMob sunar ve cihazınızın reklam kimliğini işler.</li>
+      <li>Konum, kişiler, kamera, mikrofon ve dosyalarınıza erişilmez.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>Cihazınızda kalan veriler</h2>
+    <p>Oyunun sakladığı her şey cihazınızın kendi belleğinde durur ve bir
+      sunucuya gönderilmez:</p>
+    <ul>
+      <li>Bitirdiğiniz bölümler ve kutulara yazdığınız harfler</li>
+      <li>Jeton sayınız, yıldızlarınız ve kullandığınız ipuçları</li>
+      <li>Titreşim gibi ayar tercihleriniz</li>
+    </ul>
+    <p>Uygulamayı kaldırdığınızda bu veriler silinir. Oyun içindeki
+      <strong>Ayarlar &rsaquo; İlerlemeyi sıfırla</strong> düğmesi de aynı işi yapar.</p>
+  </section>
+
+  <section>
+    <h2>Reklamlar</h2>
+    <p>Uygulama, Google AdMob üzerinden üç tür reklam gösterir: ekranın
+      altındaki şerit reklam, bölüm değişimlerinde çıkan tam ekran reklam ve
+      izlemeyi kendiniz seçtiğinizde jeton kazandıran ödüllü reklam. Ödüllü
+      reklamda kazanılan jeton yalnızca oyun içinde geçerlidir, gerçek para
+      değeri yoktur.</p>
+    <p>AdMob; reklamları seçmek, göstermek ve ölçmek için cihazınızın reklam
+      kimliğini (Advertising ID), cihaz modelini, işletim sistemi sürümünü ve
+      yaklaşık bölgenizi (IP adresinden) işleyebilir. Bu veriler uygulamaya
+      değil, doğrudan Google'a gider; biz bu verileri görmez ve saklamayız.</p>
+    <ul>
+      <li>Google'ın bu verileri nasıl kullandığı:
+        <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
+      <li>Reklam kimliğinizi sıfırlayabilir ya da kişiselleştirilmiş reklamları
+        kapatabilirsiniz: <strong>Ayarlar &rsaquo; Google &rsaquo; Reklamlar</strong></li>
+    </ul>
+    <div class="kutu">
+      <p>Avrupa Birliği, Birleşik Krallık ve İsviçre'deki kullanıcılara
+        uygulama ilk açıldığında reklam izni sorulur. Verdiğiniz yanıtı daha
+        sonra değiştirebilirsiniz.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>İzinler</h2>
+    <p>Uygulama yalnızca iki izin ister ve ikisi de reklamların çalışması
+      içindir: internet erişimi ve reklam kimliği. Oyunun kendisi internet
+      olmadan da çalışır; bulmacaların tamamı uygulamanın içinde gelir.</p>
+  </section>
+
+  <section>
+    <h2>Fotoğraflar</h2>
+    <p>Bazı bölümlerde tanınmış kişilerin fotoğrafları soru olarak kullanılır.
+      Bu görseller uygulamanın içinde hazır gelir; cihazınızın kamerasına,
+      galerisine veya dosyalarına erişilmez.</p>
+  </section>
+
+  <section>
+    <h2>Çocuklar</h2>
+    <p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve bilerek
+      onlardan veri toplamaz.</p>
+  </section>
+
+  <section>
+    <h2>Haklarınız</h2>
+    <p>Cihazınızda tutulan verileri istediğiniz zaman silebilirsiniz:
+      uygulamayı kaldırmak ya da oyun içindeki sıfırlama düğmesini kullanmak
+      yeterlidir. Reklam kimliğinizle ilgili haklarınız için Android'in
+      reklam ayarlarını kullanabilir, ayrıca aşağıdaki adresten bize
+      yazabilirsiniz.</p>
+  </section>
+
+  <section>
+    <h2>Değişiklikler</h2>
+    <p>Bu politika güncellenirse sayfanın başındaki tarih değişir. Önemli bir
+      değişiklik olursa uygulama güncellemesinin notlarında belirtilir.</p>
+  </section>
+
+  <footer>
+    Soru ve talepleriniz için:
+    <a href="mailto:abdllhakgul@gmail.com">abdllhakgul@gmail.com</a>
+  </footer>
+</div>
+</body>
+</html>
