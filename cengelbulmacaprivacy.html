@@ -60,23 +60,24 @@ footer{border-top:1px solid var(--cizgi);padding-top:18px;
   <header>
     <div class="etiket">Android uygulaması · com.vartix.cengelbulmaca</div>
     <h1>Çengel Bulmaca Gizlilik Politikası</h1>
-    <p class="tarih">Son güncelleme: 11 Eylül 2026</p>
+    <p class="tarih">Son güncelleme: 28 Ekim 2026</p>
   </header>
 
   <div class="ozet">
     <h2>Kısaca</h2>
     <ul>
       <li>Hesap açmanız istenmez; adınız, e-postanız, telefon numaranız sorulmaz.</li>
-      <li>Oyun ilerlemeniz yalnızca kendi cihazınızda saklanır, hiçbir yere gönderilmez.</li>
+      <li>Oyun ilerlemeniz kendi cihazınızda saklanır; sunucuda hesap ya da yedek tutulmaz.</li>
       <li>Uygulama reklam gösterir. Reklamları Google AdMob sunar ve cihazınızın reklam kimliğini işler.</li>
+      <li>Oyunu geliştirmek için adınızı ya da iletişim bilgilerinizi içermeyen kullanım istatistikleri ve çökme raporları Google Firebase'e gönderilir.</li>
       <li>Konum, kişiler, kamera, mikrofon ve dosyalarınıza erişilmez.</li>
     </ul>
   </div>
 
   <section>
     <h2>Cihazınızda kalan veriler</h2>
-    <p>Oyunun sakladığı her şey cihazınızın kendi belleğinde durur ve bir
-      sunucuya gönderilmez:</p>
+    <p>Oyunun ilerlemenize dair sakladığı her şey cihazınızın kendi
+      belleğinde durur; bunların bir kopyası sunucuda tutulmaz:</p>
     <ul>
       <li>Bitirdiğiniz bölümler ve kutulara yazdığınız harfler</li>
       <li>Jeton sayınız, yıldızlarınız ve kullandığınız ipuçları</li>
@@ -111,10 +112,43 @@ footer{border-top:1px solid var(--cizgi);padding-top:18px;
   </section>
 
   <section>
+    <h2>Kullanım istatistikleri ve çökme raporları</h2>
+    <p>Hangi bölümlerin zor geldiğini görmek ve hataları düzeltmek için
+      Google Firebase'in iki hizmetini kullanıyoruz:</p>
+    <ul>
+      <li><strong>Firebase Analytics:</strong> uygulama içindeki olaylar
+        (örneğin bir bölüme başlamak ya da bitirmek, ipucu kullanmak, reklam
+        izlemek, bildirim iznine verilen yanıt), oturum süresi, cihaz modeli,
+        işletim sistemi sürümü, ülke ve uygulamanın bu kuruluma özel
+        rastgele kimliği.</li>
+      <li><strong>Firebase Crashlytics:</strong> uygulama çöktüğünde hata
+        kaydı, cihaz modeli, işletim sistemi sürümü ve çökme anındaki
+        cihaz durumu (örneğin boş bellek).</li>
+    </ul>
+    <p>Bu verilerle adınız, e-postanız ya da telefon numaranız
+      eşleştirilmez. Veriler şifreli bağlantıyla doğrudan Google'a
+      gönderilir. Google'ın Firebase verilerini nasıl işlediği:
+      <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  </section>
+
+  <section>
+    <h2>Bildirimler</h2>
+    <p>İzin verirseniz uygulama günün bulmacasını hatırlatan bildirimler
+      gösterir. Bildirimler cihazınızın kendisinde planlanır; bunun için
+      bir sunucuya bilgi gönderilmez. Saatini, en çok oynadığınız saate
+      göre uygulama kendisi seçer. Bildirimleri oyun içindeki Ayarlar'dan
+      ya da Android ayarlarından kapatabilirsiniz.</p>
+  </section>
+
+  <section>
     <h2>İzinler</h2>
-    <p>Uygulama yalnızca iki izin ister ve ikisi de reklamların çalışması
-      içindir: internet erişimi ve reklam kimliği. Oyunun kendisi internet
-      olmadan da çalışır; bulmacaların tamamı uygulamanın içinde gelir.</p>
+    <p>Uygulama şu izinleri ister:</p>
+    <ul>
+      <li>İnternet erişimi: reklamlar ve kullanım istatistikleri için</li>
+      <li>Reklam kimliği: reklamların gösterilmesi ve ölçülmesi için</li>
+      <li>Bildirim gösterme: günlük hatırlatma için, yalnızca siz izin verirseniz</li>
+      <li>Açılışta çalışma: cihaz yeniden başlayınca planlı hatırlatmaları yeniden kurmak için</li>
+    </ul>
   </section>
 
   <section>
@@ -134,9 +168,11 @@ footer{border-top:1px solid var(--cizgi);padding-top:18px;
     <h2>Haklarınız</h2>
     <p>Cihazınızda tutulan verileri istediğiniz zaman silebilirsiniz:
       uygulamayı kaldırmak ya da oyun içindeki sıfırlama düğmesini kullanmak
-      yeterlidir. Reklam kimliğinizle ilgili haklarınız için Android'in
-      reklam ayarlarını kullanabilir, ayrıca aşağıdaki adresten bize
-      yazabilirsiniz.</p>
+      yeterlidir. Uygulamayı kaldırdığınızda bu kuruluma özel kimlik de
+      silinir ve yeni kurulum yeni bir kimlik alır. Reklam kimliğinizle
+      ilgili haklarınız için Android'in reklam ayarlarını kullanabilir,
+      Firebase'e gönderilen verilerin silinmesi için de aşağıdaki adresten
+      bize yazabilirsiniz.</p>
   </section>
 
   <section>
